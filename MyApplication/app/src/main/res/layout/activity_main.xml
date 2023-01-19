@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt_ten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="Hello World!"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/edt_nhap_du_lieu"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Nguyen Van A"
+        android:inputType="textPersonName" />
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp">
+
+
+        <RadioButton
+            android:id="@+id/radio_lua_chon_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lựa chọn 1" />
+
+        <RadioButton
+            android:id="@+id/radio_lua_chon_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lựa chọn 2" />
+
+        <RadioButton
+            android:id="@+id/radio_lua_chon_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lựa chọn 3" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/chk_lua_chon_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lựa chọn 1 " />
+
+    <CheckBox
+        android:id="@+id/chk_lua_chon_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lựa chọn 2 " />
+
+    <CheckBox
+        android:id="@+id/chk_lua_chon_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lựa chọn 3 " />
+
+
+    <Button
+        android:id="@+id/btn_nut_an"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3D3F41"
+        android:text="Click here" />
+
+
+</LinearLayout>
